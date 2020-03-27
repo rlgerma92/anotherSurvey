@@ -9,6 +9,21 @@ var json = {
     {
       questions: [
         {
+          type: "text",
+          name: "email",
+          title: "Please enter your e-mail",
+          isRequired: true,
+          validators: [
+            {
+              type: "email"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      questions: [
+        {
           type: "radiogroup",
           name: "interestReason",
           title:
