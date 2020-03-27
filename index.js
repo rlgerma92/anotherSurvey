@@ -4,7 +4,7 @@ var json = {
   title: "CBDistillery 100k giveaway",
   showProgressBar: "bottom",
   goNextPageAutomatic: true,
-  showNavigationButtons: false,
+  showNavigationButtons: true,
   pages: [
     {
       questions: [
@@ -83,6 +83,7 @@ var json = {
           isRequired: true,
           choices: ["Male", "Female"]
         },
+
         {
           type: "radiogroup",
           name: "askAge",
@@ -97,6 +98,7 @@ var json = {
             "65+"
           ]
         },
+
         {
           type: "text",
           name: "zipCode",
