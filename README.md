@@ -1,3 +1,3 @@
 # anotherSurvey
 
-## A Survey example using React and Survey.Js 
+## A Survey example using a lightweight React cdn and Survey.Js 
